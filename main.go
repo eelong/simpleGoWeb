@@ -13,7 +13,7 @@ import (
 func main()  {
 	var root, port string
 	root = "./"
-	port = "8081"
+	port = "80"
 	f,err := os.Open("../web.conf")
 	if err != nil{
 		fmt.Println("配置文件未找到")
